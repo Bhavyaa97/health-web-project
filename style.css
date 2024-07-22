@@ -1,0 +1,179 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container-apiwork {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content-apiwork {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-apiwork {
+  width: 100%;
+  margin: 0;
+}
+
+.banner-apiwork img {
+  width: 100%;
+  height: auto;
+}
+
+.search-login-container-apiwork {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-container-apiwork {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  flex-grow: 1;
+}
+
+.search-input-apiwork {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  border-radius: 30px 0px 0px 30px;
+  width: 50%;
+  max-width: 800px;
+}
+
+.search-button-apiwork {
+  background-color: #5D632C;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.search-button-apiwork:hover {
+  background-color: #5D632C;
+}
+
+.product-apiwork {
+  flex: 0 1 calc(25% - 50px);
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+
+}
+
+.product-apiwork img {
+  width: 100%;
+  height: auto;
+}
+
+.product-apiwork h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product-apiwork .price-apiwork {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.product-apiwork .price-apiwork .original-price-apiwork {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.product-apiwork .price-apiwork .discounted-price-apiwork {
+  color: #EF7F1A;
+}
+
+.product-apiwork .view-apiwork,
+.product-apiwork .book-apiwork {
+  background-color: #5D632C;
+  color: white;
+  border: none;
+  padding: 12px 10px;
+  margin: 0 5PX 15PX;
+  cursor: pointer;
+  font-size: 16PX;
+  width: 120px;
+}
+
+.product-apiwork button:hover {
+  background-color: #EF7F1A;
+}
+
+@media (max-width: 1024px) {
+  .product-apiwork {
+    flex-basis: calc(30% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .product-apiwork {
+    flex-basis: calc(100% - 20px);
+  }
+}
+
+.suggestions-apiwork {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+  margin-left: 23%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 50%;
+  background-color: rgba(246, 242, 242, 0.767);
+  color: #5D632C;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.suggestions-apiwork li {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.suggestions-apiwork li:hover {
+  background-color: #ffffff;
+}
+
+.login-container-apiwork {
+  margin: 0;
+}
+
+.login-apiwork {
+  background-color: #ffffff;
+  color: rgb(8, 8, 8);
+  border: none;
+  padding: 8px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+.login-apiwork:hover {
+  color: #EF7F1A;
+}
